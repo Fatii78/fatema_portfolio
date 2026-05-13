@@ -149,3 +149,18 @@
   color: #aaa;
   margin-top: auto;
 }
+
+
+@media (max-width: 768px) {
+  .about {
+    padding: 0 1.5rem;
+  }
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .certs-grid {
+    grid-template-columns: 1fr; /* عمود واحد للشهادات */
+  }
+}

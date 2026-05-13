@@ -125,3 +125,24 @@
   color: #666;
   letter-spacing: 0.5px;
 }
+
+
+@media (max-width: 768px) {
+  .home-name {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .home-cta {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn-primary, .btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+  .home-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+}

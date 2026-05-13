@@ -95,3 +95,13 @@ background: rgba(91, 76, 65, 0.06);}
   background: #6b4646;
   flex-shrink: 0;
 }
+
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr; 
+  }
+  .soft-items {
+    gap: 1rem;
+  }
+}
