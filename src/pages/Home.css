@@ -1,0 +1,127 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(80vh - 150px);
+  padding: 0 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home-tag {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6b4646;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  color: #1A1A1A;
+  margin-bottom: 1.5rem;
+}
+
+.home-sub {
+  font-size: 16px;
+  color: #888;
+  font-weight: 300;
+  max-width: 500px;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+
+.home-cta {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-primary {
+  padding: 12px 32px;
+  background: #6b4646;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #8a5c5c;
+}
+
+.btn-outline {
+  padding: 12px 32px;
+  background: transparent;
+  color: #1A1A1A;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border: 0.5px solid #ccc;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-outline:hover {
+  border-color: #6b4646;
+  color: #6b4646;
+}
+
+.home-stats {
+  display: flex;
+  gap: 3rem;
+  padding: 1.5rem 0;
+  border-top: 0.5px solid rgba(0,0,0,0.08);
+  border-bottom: 0.5px solid rgba(0,0,0,0.08);
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #6b4646;
+}
+
+.stat-label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.home-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.stack-tag {
+  font-size: 12px;
+  padding: 5px 14px;
+  border: 0.5px solid rgba(0,0,0,0.12);
+  border-radius: 2px;
+  color: #666;
+  letter-spacing: 0.5px;
+}

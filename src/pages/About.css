@@ -1,0 +1,151 @@
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.sec-label {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6b4646;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+
+.about-bio {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.9;
+  max-width: 680px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1.5rem;
+  border-left: 0.5px solid rgba(0,0,0,0.12);
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2.45rem;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #6b4646;
+  border: 2px solid white;
+  outline: 1px solid #6b4646;
+}
+
+.timeline-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.timeline-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1A1A1A;
+}
+
+.timeline-date {
+  font-size: 12px;
+  color: #aaa;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.timeline-sub {
+  font-size: 13px;
+  color: #6b4646;
+  letter-spacing: 0.5px;
+}
+
+.timeline-detail {
+  font-size: 13px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.timeline-points {
+  margin-top: 8px;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.timeline-points li {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cert-card {
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cert-issuer {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6b4646;
+  font-weight: 700;
+}
+
+.cert-name {
+  font-size: 13px;
+  color: #1A1A1A;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.cert-date {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: auto;
+}
